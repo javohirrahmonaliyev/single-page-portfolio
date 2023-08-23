@@ -1,0 +1,109 @@
+.contact__container {
+  align-items: center;
+  border-radius: 10px;
+  background: var(--black, #030303);
+  display: flex;
+  margin-bottom: 6rem;
+  justify-content: space-between;
+  width: 1110px;
+  height: 320px;
+  flex-shrink: 0;
+}
+.cta__box {
+  align-items: center;
+  width: 540px;
+  h3 {
+    margin-bottom: 25px;
+
+    color: var(--light-cream, #fff7f0);
+    font-feature-settings: "clig" off, "liga" off;
+
+    /* Heading (M) */
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  p {
+    color: var(--light-cream, #fff7f0);
+    font-feature-settings: "clig" off, "liga" off;
+
+    /* Body (M) */
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+  }
+}
+@media screen and (max-width: 1020px) {
+  .contact__container {
+    flex-direction: column;
+    width: 690px;
+    .cta__box {
+      margin-top: 5.6rem;
+
+      h3 {
+        width: 540px;
+        color: var(--light-cream, #fff7f0);
+        text-align: center;
+        font-feature-settings: "clig" off, "liga" off;
+
+        /* Heading (S) */
+        font-family: Plus Jakarta Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      p {
+        margin-bottom: 2.6rem;
+        width: 540px;
+        color: var(--light-cream, #fff7f0);
+        text-align: center;
+        font-feature-settings: "clig" off, "liga" off;
+
+        /* Body (M) */
+        font-family: Plus Jakarta Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px; /* 155.556% */
+      }
+    }
+    a {
+      margin-bottom: 6.4rem;
+    }
+  }
+}
+@media screen and (max-width: 790px) {
+  .contact__container {
+    justify-content: center;
+    width: 415px;
+    height: 360px;
+    .cta__box {
+      h3 {
+        color: var(--light-cream, #fff7f0);
+        text-align: center;
+        font-family: Plus Jakarta Sans;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      p {
+        margin-right: auto;
+        margin-left: auto;
+        width: 295px;
+        color: var(--light-cream, #fff7f0);
+        text-align: center;
+        font-family: Plus Jakarta Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; /* 162.5% */
+      }
+    }
+  }
+}

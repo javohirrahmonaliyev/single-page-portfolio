@@ -1,0 +1,19 @@
+.header {
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 3.5rem;
+  .site-logo {
+    &:hover {
+      opacity: 0.6;
+    }
+    .site-logo-img {
+      width: 64px;
+      height: 64px;
+    }
+  }
+  .header-btn {
+  }
+}
